@@ -19,6 +19,7 @@ db.once('open', function() {
 });
 
 var app = express();
+//o zat
 
 app.use(cors())
 app.use(logger('dev'));
